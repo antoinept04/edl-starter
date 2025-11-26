@@ -1,8 +1,11 @@
 name: Frontend Tests
 
 on:
+
+  workflow_call:
+
   push:
-    branches: [main]
+    branches: [main, feature/test-branch-protection]
 
 jobs:
   test:
