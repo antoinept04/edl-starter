@@ -2,7 +2,7 @@ name: Backend Tests
 
 on:
 
-  workflow_call:
+ 
 
   push:
     branches: [main, feature/test-branch-protection]
